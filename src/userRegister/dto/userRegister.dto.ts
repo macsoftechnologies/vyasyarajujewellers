@@ -19,7 +19,7 @@ export class loginDto {
   
   
   @ApiProperty()
-  LoginId: string;
+  Email: string;
  
   @ApiProperty()
   Password: string;
