@@ -16,11 +16,11 @@ import { imagesModule } from './images/images.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({type: 'mysql',
-       host: 'ls-9b6b93368d6c8ba4138f6ccb36923e6c27c074a4.c7vrc7k2qb9e.ap-south-1.rds.amazonaws.com',
+       host: 'localhost',
        port: 3306,
-       username: 'dbmasteruser',
-       password: '5016:loqLAL,(]FfeVO9qMRt.8kYD<M7',
-       database: 'dbmaster',
+       username: 'root',
+       password: 'MacsofTechnologies',
+       database: 'vyasyarajuJewellery',
        logging:true,
       synchronize: true,
        autoLoadEntities: true,
